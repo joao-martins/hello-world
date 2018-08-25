@@ -10,7 +10,7 @@ describe('Greeter', () => {
 
     describe('Only name provided', () => {
         it('should greet by the name', () => {
-            assert.equal(service.buildMessage('Alex'), 'Hello Alex');
+            assert.equal(service.buildMessage('Alex'), 'Hi Alex');
         });
     });
 

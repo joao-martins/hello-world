@@ -1,9 +1,12 @@
 const routes = require('express').Router();
+const greeter = require('../service/greeter');
 
 routes.get('/', (req, res) => {
-    let name = req.query.name || 'world';
+    const { name, city } = req.query;
+    
+    message = greeter.buildMessage(name, city);
 
-    res.render('index', { title: 'Welcome!', name } );
+    res.render('index', { title: 'Welcome!', message } );
 });
 
 module.exports = routes;

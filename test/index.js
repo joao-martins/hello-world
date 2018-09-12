@@ -1,5 +1,5 @@
 const assert = require('assert');
-const service = require('../service/greeter');
+const service = require('../services/greeter');
 
 describe('Greeter', () => {
     describe('No query parameters provided', () => {

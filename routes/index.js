@@ -1,5 +1,5 @@
 const routes = require('express').Router();
-const greeter = require('../service/greeter');
+const greeter = require('../services/greeter');
 
 routes.get('/', (req, res) => {
     const { name, city } = req.query;

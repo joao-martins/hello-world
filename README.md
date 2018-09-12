@@ -6,13 +6,11 @@ This is a simple Hello World app that uses **express** as web framework and **ha
 ## Install and run
 
 Just clone it, install dependencies and run it.
-
-`$ git clone https://github.com/joao-martins/hello-world`
-
-`$ npm install`
-
-`$ PORT=4000 npm start`
-
+```
+$ git clone https://github.com/joao-martins/hello-world
+$ npm install
+$ PORT=4000 npm start
+```
 
 ## Explore
 

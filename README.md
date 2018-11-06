@@ -1,5 +1,7 @@
 # Hello World
 
+[![Build status](https://travis-ci.org/joao-martins/hello-world.svg?branch=master)](https://travis-ci.org/joao-martins/hello-world)
+
 This is a simple Hello World app that uses **express** as web framework and **handlebars** as template engine. I added a couple of *devDependencies* for testing (**mocha**) and **nodemon** for watching for changes and restarting the app automatically.
 
 
@@ -38,4 +40,3 @@ Run the tests with `$ npm test`. This will test a few scenarios for the **buildM
     └── test
 ```
 Everything is pretty much self-explanatory.
-

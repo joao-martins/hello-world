@@ -43,6 +43,4 @@ Everything is pretty much self-explanatory.
 
 ## Build process
 
-I have set up a continuous integration tool ([Travis CI](https://travis-ci.org)) watching the code changes on the [repository on GitHub](https://github.com/joao-martins/hello-world). ([Heroku](https://heroku.com)) is deploying the app for each successful build.
-
-There's a demo running on https://joao-martins-hello-world.herokuapp.com/, have fun!
+I have set up a continuous integration tool ([Travis CI](https://travis-ci.org)) watching the code changes on the [repository on GitHub](https://github.com/joao-martins/hello-world). There's a demo running on [Heroku](https://joao-martins-hello-world.herokuapp.com/), which is deploying the app for each successful build. Have fun!

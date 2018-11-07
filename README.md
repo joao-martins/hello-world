@@ -40,3 +40,9 @@ Run the tests with `$ npm test`. This will test a few scenarios for the **buildM
     └── test
 ```
 Everything is pretty much self-explanatory.
+
+## Build process
+
+I have set up a continuous integration tool ([Travis CI](https://travis-ci.org)) watching the code changes on the [repository on GitHub](https://github.com/joao-martins/hello-world). ([Heroku](https://heroku.com)) is deploying the app for each successful build.
+
+There's a demo running on https://joao-martins-hello-world.herokuapp.com/, have fun!

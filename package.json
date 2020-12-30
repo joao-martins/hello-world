@@ -16,11 +16,11 @@
   ],
   "author": "joao@joaomartins.info",
   "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.8"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
   },
   "devDependencies": {
-    "mocha": "^5.2.0",
-    "nodemon": "^1.18.3"
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6"
   }
 }
